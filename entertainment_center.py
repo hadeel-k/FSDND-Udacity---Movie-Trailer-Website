@@ -4,7 +4,7 @@ import media
 # 1st movie's details
 tag = media.Movie("Tag", "Storyline",
                   "http://www.impawards.com/2018/posters/tag_ver2.jpg",
-                  "https://www.youtube.com/watch?v=kjC1zmZo30U")
+                  "https://www.youtube.com/watch?v=9rQu77pgnpg")
 
 # 2nd movie's details
 tomb_raider = media.Movie("Tomb Raider", "Storyline",
