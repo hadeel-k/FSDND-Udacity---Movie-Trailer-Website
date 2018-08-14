@@ -1,10 +1,13 @@
+# This Python file uses the following encoding: utf-8
+import os
+import sys
 import fresh_tomatoes
 import media
 
 # 1st movie's details
 tag = media.Movie("Tag", "Storyline",
                   "http://www.impawards.com/2018/posters/tag_ver2.jpg",
-                  "https://www.youtube.com/watch?v=9rQu77pgnpg")
+                  "https://youtu.be/9rQu77pgnpg")
 
 # 2nd movie's details
 tomb_raider = media.Movie("Tomb Raider", "Storyline",
@@ -18,7 +21,7 @@ wonder = media.Movie("Wonder", "Storyline",
 
 # 4th movie's details
 black_panther = media.Movie("Black Panther", "Storyline",
-                            "http://www.impawards.com/2018/posters/black_panther_ver2.jpg",
+                            "http://oi64.tinypic.com/2uszo05.jpg",
                             "https://www.youtube.com/watch?v=dxWvtMOGAhw")
 
 # 5th movie's details
@@ -27,8 +30,8 @@ rampage = media.Movie("Rampage", "Storyline",
                       "https://www.youtube.com/watch?v=coOKvrsmQiI")
 
 # 6th movie's details
-mollys_game = media.Movie("Molly’s Game", "Storyline",
-                          "http://www.impawards.com/2017/posters/mollys_game.jpg",
+mollys_game = media.Movie("Molly\’s Game", "Storyline",
+                          "http://oi68.tinypic.com/2wgf3pc.jpg",
                           "https://www.youtube.com/watch?v=Vu4UPet8Nyc")
 
 movies = [tag, tomb_raider, wonder, black_panther, rampage, mollys_game]
